@@ -1,10 +1,10 @@
 # Hi!
 
-![screenshot](https://raw.github.com/jlord/sheetsee-tool-lending/gh-pages/lending-ss.png)
+![screenshot](https://cvlassets.nyc3.digitaloceanspaces.com/Screen%20Shot%202019-05-23%20at%202.09.15%20AM.png)
 
-### A Tool Lending Library Site
+### Quotations and Public Opinion on Climate and Sustainability by Savannah Residents
 
-A website and spreadsheet set up to make lending tools to friends or neighbors easier. Fork this project, create a spreadsheet and you've got your own site live. **[Fork-n-go!](http://jlord.github.io/forkngo)**
+This project was built for easy reuse in other communities. To get started, Fork this project to your account, create a Google spreadsheet and you've got your own site live. **[Fork-n-go!](http://jlord.github.io/forkngo)**
 
 
 #### Fork -n- Go!
