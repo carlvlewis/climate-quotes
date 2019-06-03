@@ -14,9 +14,9 @@
 		<header class="container">
 			<h1>Tool Lending</h1>
 			<ul class="nav">
-				<li><strong>LENDING IS LOVELY</strong></li>
-				<li>AN OPEN SOURCE, EASY TO DUPLICATE PROJECT</li>
-				<li><a href="#info">HERE'S HOW</a></li>
+				<li><strong>Themes from user interviews</strong></li>
+				<li>Across the spectrum</li>
+				<li><a href="#info">Learn More</a></li>
 			</ul>
 		</header>
 		<div id="filters" class="container">
@@ -27,7 +27,7 @@
 		<div id="tools" class="container"><span class="flash animated">LOADING...</span></div>
 		<div id="info" class="container">
 				<div class="span1">
-					<h4>CONTRIBUTE TO THIS LIBRARY</h4>
+					<h4>CONTRIBUTE TO THIS LIST</h4>
 					<p>If you've been invited by the person who initiated this near you, you'll have access and the ability to edit the rows of the spreadsheet feeding data to this site.</p>
 					<p>Simply add the rows for the tools you have and add yes if an item is currently being borrowed. Easy, the Spreadsheet auto-saves, too!</p>
 
@@ -55,8 +55,8 @@
 		<div id="{{rowNumber}}" class="tool-box {{#checkedout}}not-{{/checkedout}}available">
 			<span class="tool-box-tool">{{tool}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
-				{{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
-				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{tool}}"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}}
+				{{#checkedout}} <span class="tool-box-borrowed">All Communities</span>{{/checkedout}}
+				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{tool}}"><span class="tool-box-borrow btn">Vulnerable Community</span></a>{{/checkedout}}
 				<ul>
 					<li><small>WHO / WHERE : </small></li>
 					<li><a href="mailto:{{owneremail}}">{{owner}}</a></li>
